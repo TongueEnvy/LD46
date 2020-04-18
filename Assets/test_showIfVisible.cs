@@ -23,10 +23,10 @@ public class test_showIfVisible : MonoBehaviour
         if (GetComponent<test_checkIfVisible>().inView)
         {
 
-            if(mRender.sharedMaterials[0] != greenMat)
+            if(mRender.sharedMaterial != greenMat)
             {
 
-                mRender.sharedMaterials[0] = greenMat;
+                mRender.sharedMaterial = greenMat;
 
             }
 
@@ -34,10 +34,10 @@ public class test_showIfVisible : MonoBehaviour
         else
         {
 
-            if (mRender.sharedMaterials[0] != redMat)
+            if (mRender.sharedMaterial != redMat)
             {
 
-                mRender.sharedMaterials[0] = redMat;
+                mRender.sharedMaterial = redMat;
 
             }
 
